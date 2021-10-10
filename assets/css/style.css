@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: slategray;
+    display: flex;
+}
+
+header h1 {
+    font-size: 35px;
+    background: turquoise;
+    color: slategray;
+    text-align: left;
+    flex: 4 0 200px;
+    height: 35px;
+    position: relative;
+    margin-top: 20px;
+}
+
+header a {
+    flex: 1 0 0px;
+    font-size: 20px;
+    position: relative;
+    font-style: normal;
+    margin: 47.5px 5px;
+    color: turquoise;
+}
+
+.subHeader {
+    height: 75px;
+    background-image: url(../images/planks.png);
+}
+
+.subHeader h1 {
+    font-size: 25px;
+    width: 200px;
+    background-color: turquoise;
+    color: slategray;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 45px;
+    text-align: right;
+    float: right;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+                      
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
