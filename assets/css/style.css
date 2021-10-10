@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: 75px;
     background-color: slategray;
-    display: flex;
+    display: inline-flex;
 }
 
 header h1 {
@@ -15,7 +15,7 @@ header h1 {
     background: turquoise;
     color: slategray;
     text-align: left;
-    flex: 4 0 200px;
+    flex: 4 1 100px;
     height: 35px;
     position: relative;
     margin-top: 20px;
@@ -24,14 +24,14 @@ header h1 {
 header a {
     flex: 1 0 0px;
     font-size: 20px;
-    position: relative;
+    text-align: right;
     font-style: normal;
-    margin: 47.5px 5px;
+    margin: 47.5px 15px 5px 15px;
     color: turquoise;
 }
 
 .subHeader {
-    height: 75px;
+    height: 125px;
     background-image: url(../images/planks.png);
 }
 
@@ -41,11 +41,12 @@ header a {
     background-color: turquoise;
     color: slategray;
     position: relative;
-    margin-right: 15px;
-    margin-top: 45px;
-    text-align: right;
+    margin-right: 25px;
+    margin-top: 75px;
+    text-align:justify;
     float: right;
 }
+
 
 
 
