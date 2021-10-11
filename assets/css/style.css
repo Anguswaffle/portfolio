@@ -7,7 +7,6 @@ header {
     height: 75px;
     background-color: slategray;
     display: inline-flex;
-    overflow: hidden;
 }
 
 header h1 {
@@ -17,7 +16,6 @@ header h1 {
     height: auto;
     margin-top: 20px;
     flex: 4 1 300px;
-    align-self: left;
 }
 
 header a {
@@ -32,7 +30,7 @@ header a {
 }
 
 
-/* Right side of content areas */
+/* Left side of content areas */
 section h1 {
     font-size: 50px;
     flex: 1 1 200px;
@@ -65,22 +63,21 @@ article {
 
 }
 
-.flexColumn {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-}
-
 .contentArea {
     display: flex;
     justify-content: space-evenly;
 }
 
 .mainCard {
-    
+    max-width: 100%;
+    height: auto;
+    order: 1;
 }
 
 .workCards {
+    max-width: 45%;
+    height: auto;
+    order: 2;
 }
 
 /* Dividing and center of content areas */
@@ -95,17 +92,18 @@ article {
 /* Controls the right side of content areas */
 .rightSide {
     flex: 1 1 500px;
-    max-width: 55%;
+    width: 65%;
+    padding: 15px;
 }
 
 #profilePic {
     max-height: 120px;
     align-self: center;
-
 }
 
 #cards {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
