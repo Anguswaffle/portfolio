@@ -61,11 +61,16 @@ article {
     float: right;
 }
 
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .contentArea {
     display: inline-flex;
 }
 
-.vl {
+.divider {
     border-left: 6px solid green;
     height: 100%;
     margin-left: -3px;
