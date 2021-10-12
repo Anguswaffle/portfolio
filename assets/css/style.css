@@ -101,6 +101,7 @@ article {
     flex: 1 1 500px;
     width: 65%;
     padding: 15px;
+    
 }
 
 .cardLabel{
@@ -122,6 +123,15 @@ article {
     justify-content: space-evenly;
 }
 
+#contactInfo {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#contactInfo a {
+
+}
+
 #cssCheatSheet h3 {
     color: black;
 }
@@ -134,13 +144,13 @@ article {
     text-align: center;
 }
 
+#resume h2{
+    font-size: 40px;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 992px) {
-    body {
-        background-color: blue;
-        
-    }
-
     header h1 {
         font-size: 25px;
     }
@@ -155,12 +165,13 @@ article {
 }
                       
 @media screen and (max-width: 600px) {
-    body {
-        background-color: olive;
-    }
 
     section h1 {
         font-size: 25px;
+    }
+
+    header a {
+        font-size: 15px;
     }
 
     #cards h3 {
