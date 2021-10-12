@@ -69,15 +69,22 @@ article {
 }
 
 .mainCard {
-    max-width: 100%;
-    height: auto;
-    order: 1;
+    flex: 1 1 800px;
 }
 
-.workCards {
-    max-width: 45%;
+.workCard{
+    flex: 1 1 400px;
+    max-width: 50%;
+}
+
+.mainCardImg {
+    max-width: 100%;
     height: auto;
-    order: 2;
+}
+
+.workCardsImg {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Dividing and center of content areas */
@@ -96,6 +103,13 @@ article {
     padding: 15px;
 }
 
+.cardLabel{
+    position: relative;
+    margin-top: -50px;
+    color: white;
+    font-size: 40px;
+}
+
 #profilePic {
     max-height: 120px;
     align-self: center;
@@ -105,6 +119,11 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#cssCheatSheet h3 {
+    color: black;
 }
 
 #aboutMe {
@@ -116,16 +135,35 @@ article {
 }
 
 
-
-
 @media screen and (max-width: 992px) {
     body {
         background-color: blue;
+        
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    section h1 {
+        font-size: 35px;
+    }
+
+    #cards h3 {
+        font-size: 25px;
     }
 }
                       
 @media screen and (max-width: 600px) {
     body {
         background-color: olive;
+    }
+
+    section h1 {
+        font-size: 25px;
+    }
+
+    #cards h3 {
+        font-size: 15px;
     }
 }
