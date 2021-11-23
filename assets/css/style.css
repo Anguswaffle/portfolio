@@ -2,7 +2,6 @@
     --dark-purple: #271f30ff;
     --vegas-gold: #c8ad55ff;
     --umber: #6c5a49ff;
-    --tea-green: #d0fcb3ff;
     --eton-blue: #9bc59dff;
 }
 
@@ -120,16 +119,6 @@ article p {
     flex: 1 1 500px;
     width: 65%;
     padding: 15px;
-}
-
-.cardLabel{
-    position: relative;
-    bottom: 10%;
-    left: 50%;
-    font-size: 200%;
-    background-color: var(--tea-green);
-    color: var(--umber);
-    width: fit-content;
 }
 
 #profilePic {
