@@ -87,7 +87,9 @@ article {
 
 .workCard{
     flex: 1 1 400px;
-    max-width: 50%;
+    width: 50%-30px;
+    height: auto;
+    margin: 15px;
 }
 
 .mainCardImg {
@@ -113,13 +115,15 @@ article {
     flex: 1 1 500px;
     width: 65%;
     padding: 15px;
-    
 }
 
 .cardLabel{
     position: relative;
-    margin-top: -50px;
-    font-size: 40px;
+    bottom: 10%;
+    left: 50%;
+    font-size: 200%;
+    background-color: var(--umber);
+    width: fit-content;
 }
 
 #profilePic {
@@ -145,6 +149,11 @@ article {
 
 #aboutMe p {
     text-align: center;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #resume h2{
